@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "651656189142",
+	"firebase_url": "https://dilo---incremental-firebase.firebaseio.com",
+    "project_id": "dilo---incremental-firebase",
+    "storage_bucket": "dilo---incremental-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651656189142:android:15a60f877c9a62173fe577",
+        "android_client_info": {
+          "package_name": "com.dilo.incrementalfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651656189142-n4kgnf18jm0krq118ji26dpe4sof4ftu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzVtl-erQzFE7SW_Ps4Tsa8PAIKsqos0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651656189142-n4kgnf18jm0krq118ji26dpe4sof4ftu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
