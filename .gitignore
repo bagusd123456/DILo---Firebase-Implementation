@@ -33,6 +33,5 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
 *.unitypackage
 FirebaseCppApp-8_7_0.so
