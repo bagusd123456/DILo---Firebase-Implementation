@@ -142,15 +142,11 @@ public class GameManager : MonoBehaviour
     {
         /*TotalGold += value;
         GoldInfo.text = $"Gold: { TotalGold.ToString ("0") }";*/
-
+        
         UserDataManager.Progress.Gold += value;
         GoldInfo.text = $"Gold: { UserDataManager.Progress.Gold.ToString("0") }";
-        UserDataManager.Save(_saveDelayCounter < 0f);
 
-        if (_saveDelayCounter < 0f)
-        {
-            _saveDelayCounter = SaveDelay;
-        }
+        UserDataManager.Save();
     }
 
     public void CollectByTap (Vector3 tapPosition, Transform parent)
